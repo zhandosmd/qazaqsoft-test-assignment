@@ -3,15 +3,9 @@ import 'package:flutter_keyboard_visibility/flutter_keyboard_visibility.dart';
 
 import '../widgets/auth_background_widget.dart';
 import '../widgets/auth_controller_widget.dart';
+class AuthPage extends StatelessWidget {
 
-class AuthPage extends StatefulWidget {
   const AuthPage({Key? key}) : super(key: key);
-
-  @override
-  State<AuthPage> createState() => _AuthPageState();
-}
-
-class _AuthPageState extends State<AuthPage> {
 
   @override
   Widget build(BuildContext context) {
@@ -44,4 +38,5 @@ class _AuthPageState extends State<AuthPage> {
     );
   }
 }
+
 
